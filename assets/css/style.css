@@ -1,0 +1,116 @@
+body {
+    padding: 0%;
+    margin: 0%;
+}
+
+header {
+    background-image: url("../images/pokemon-party.jpg");
+    background-image: no-repeat;
+    height: 250px;
+    width: auto;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+header h1 {
+    font-size: 50px;
+    font-family: fantasy;
+    -webkit-text-fill-color: yellow;
+    -webkit-text-stroke: 1px blue;
+}
+
+header h2 {
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    -webkit-text-fill-color: yellow;
+    -webkit-text-stroke: 2px black;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+}
+
+section .container {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.container .card1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5px 5px;
+    width: 3000px;
+    height: 250px;
+    background-color: green;
+}
+
+.card1 .card-image {
+    display: flex;
+    justify-content: center;
+}
+
+.card1 .card-image img {
+    object-fit: cover;
+    height: 200px;
+    width: 200px;
+}
+
+
+.container .card2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5px 5px;
+    width: 3000px;
+    height: 250px;
+    background-color: aqua;
+}
+
+.card2 .card-image {
+    display: flex;
+    justify-content: center;
+}
+
+.card2 .card-image img {
+    object-fit: cover;
+    height: 200px;
+    width: 200px;
+}
+
+.container .card3 {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    margin: 5px 5px;
+    width: 3000px;
+    height: 250px;
+    background-color: red;
+}
+
+.card3 .card-image {
+    display: flex;
+    justify-content: center;
+}
+
+.card3 .card-image img {
+    object-fit: cover;
+    height: 200px;
+    width: 200px;
+}
+
+
+footer {
+    background-color: coral;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
